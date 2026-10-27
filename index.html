@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Digital - Catálogo y préstamos de libros</title>
   <meta name="description" content="Biblioteca digital para gestionar un catálogo de libros: prestar, devolver, agregar, editar y consultar el historial de préstamos.">
-  <!-- Cambia esta URL por la de tu GitHub Pages -->
-  <link rel="canonical" href="https://tu-usuario.github.io/biblioteca/">
+  <link rel="canonical" href="https://github.com/annarei25/biblioteca-digital.git">
   <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="styles.css">
   <script src="logica.js" defer></script>
@@ -36,10 +35,8 @@
   </header>
 
   <main>
-    <!-- Mensajes de éxito, error o aviso (sustituyen a alert) -->
     <p class="mensaje" id="mensaje" role="status" hidden></p>
 
-    <!-- VISTA 1: CATÁLOGO -->
     <section class="vista" id="vista-catalogo" aria-labelledby="titulo-catalogo">
       <h2 id="titulo-catalogo">Catálogo</h2>
 
@@ -81,7 +78,6 @@
       <p class="vacio" id="catalogo-vacio" hidden>Ningún libro coincide con la búsqueda o los filtros.</p>
     </section>
 
-    <!-- VISTA 2: MIS PRÉSTAMOS -->
     <section class="vista" id="vista-prestamos" aria-labelledby="titulo-prestamos" hidden>
       <h2 id="titulo-prestamos">Mis préstamos</h2>
 
@@ -93,7 +89,6 @@
       <p class="vacio" id="historial-vacio" hidden>Todavía no hay préstamos devueltos.</p>
     </section>
 
-    <!-- VISTA 3: AGREGAR / EDITAR LIBRO -->
     <section class="vista" id="vista-formulario" aria-labelledby="titulo-formulario" hidden>
       <h2 id="titulo-formulario">Agregar libro</h2>
 
@@ -144,7 +139,6 @@
       </form>
     </section>
 
-    <!-- VISTA 4: RESUMEN Y AJUSTES -->
     <section class="vista" id="vista-resumen" aria-labelledby="titulo-resumen" hidden>
       <h2 id="titulo-resumen">Resumen y ajustes</h2>
 
@@ -169,7 +163,6 @@
     <p>&copy; 2026 Biblioteca Digital - Programación Web</p>
   </footer>
 
-  <!-- MODAL: PRESTAR -->
   <div class="modal-fondo" id="modal-prestar" hidden>
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-prestar">
       <h2 id="titulo-modal-prestar">Prestar libro</h2>
@@ -188,7 +181,6 @@
     </div>
   </div>
 
-  <!-- MODAL: CONFIRMAR (eliminar y restablecer) -->
   <div class="modal-fondo" id="modal-confirmar" hidden>
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-confirmar">
       <h2 id="titulo-modal-confirmar">Confirmar</h2>

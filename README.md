@@ -1,5 +1,7 @@
 # Biblioteca Digital
 
+Nombre: Ana Laura Reinoso Fernandez
+
 Primer parcial de Programación Web. Aplicación de una sola página para gestionar una biblioteca: un catálogo de libros que se prestan a personas y se devuelven, un formulario para agregar y editar libros, y un resumen con ajustes de usuario.
 
 Está hecha solo con HTML, CSS y JavaScript, sin librerías ni frameworks.

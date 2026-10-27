@@ -1,10 +1,3 @@
-// ============================================================
-// ui.js
-// Interfaz: dibuja la pantalla a partir de los datos y maneja eventos.
-// Las reglas de negocio viven en logica.js.
-// Nunca se usa innerHTML: solo textContent y createElement.
-// ============================================================
-
 const $ = (selector) => document.querySelector(selector);
 
 // ---------- Constantes ----------

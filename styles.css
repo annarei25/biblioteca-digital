@@ -1,11 +1,3 @@
-/* ============================================================
-   styles.css
-   Estilo "papel y tinta": crema, verde bosque y terracota.
-   Mobile first. Grid para el layout general, Flexbox para componentes.
-   Los colores son variables: el tema oscuro solo cambia sus valores.
-   Las fuentes son del sistema (funcionan sin internet).
-   ============================================================ */
-
 *,
 *::before,
 *::after {
